@@ -1,4 +1,3 @@
-#include <cs50.h>
 #include <stdio.h>
 
 int main(void)
@@ -10,7 +9,8 @@ int main(void)
     do
     {
         // Prompt user for total block height
-        height = get_int("Total block height: ");
+        printf("Total block height: ");
+        scanf("%d", &height);
     }
 
     // Continue prompting until input is between 1 and 8 inclusive
