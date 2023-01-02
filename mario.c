@@ -1,3 +1,5 @@
+// Creates a mirrored staircase block based on user input, similar to those in Super Mario games.
+
 #include <stdio.h>
 
 int main(void)
